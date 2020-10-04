@@ -4,7 +4,7 @@ const Engine = Matter.Engine ;
   var engine , world ,ground ;
   var log1,log2,log3;
   function preload(){
-         log2Img=loadImage("sprites/dustbingreen.png")
+         log2Img=loadImage("dustbingreen.png")
   }
  
    function setup() {
