@@ -4,7 +4,7 @@ const Engine = Matter.Engine ;
   var engine , world ,ground ;
   var log1,log2,log3;
   function preload(){
-         log2=loadImage("sprites/dustbingreen.png")
+         log2Img=loadImage("sprites/dustbingreen.png")
   }
  
    function setup() {
@@ -36,7 +36,7 @@ World.add(world,log3);
         Engine.update(engine)
         rectMode(CENTER)
       Ball1.display()
-      image(log2,400,290,100,100)
+      image(log2Img,400,290,100,100)
        
 fill("red")
        rect(ground.position.x,ground.position.y,1000,10)
